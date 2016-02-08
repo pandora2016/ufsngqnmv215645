@@ -60,29 +60,18 @@ public class DriverExplorer {
 		 
 		 
 		 Actions builder = new Actions(driver);
-		WebElement menuLink = driver.findElement(By.id("__AtJsMenu75__"));
-		
-		 //driver.findElement(By.id("__AtJsMenu75__")).click();
+		WebElement menuLink = driver.findElement(By.id("__AtJsMenu75__"));		
 		 WebElement subLink = driver.findElement(By.id("__AtJsMenu78__"));  
-		// WebElement subLink2 = driver.findElement(By.id("__AtJsMenu84__")); 
 		 builder.moveToElement(menuLink).click().moveToElement(subLink).click().build().perform();
 		// builder.moveToElement(menuLink).click().moveToElement(subLink).moveToElement(subLink2).click().build().perform();
-		 
-		 
-		 
 		  // driver.findElement(By.id("__AtJsMenu84__")).click();
 		 //driver.findElement(By.tagName("Registrar Tipos de Cambio")).click();
-		 
-		 
+
 		// driver.findElement(By.id("__AtJsMenu75__")).click();
 		// driver.findElement(By.xpath("//input[@id='__AtJsMenu84__']")).click();
-		 //__SUBMENU__
 		// driver.findElement(By.id("__AtJsMenu78__")).click();
-		 //
 		// driver.findElement(By.id("__AtJsMenu84__")).click();
-		 
-		 
-		 
+
 		// driver.quit();
 		 }
 
